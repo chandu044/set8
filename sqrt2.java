@@ -14,7 +14,7 @@ class Ideone
 		int n=s.nextInt();
 	            int  m=s.nextInt();
 	            int k=m*n;
-	            for(int i=1;i<k/2;i++)
+	            for(int i=0;i<=k;i++)
 	            {
 	                a=i*i;
 	                if(a==k)
